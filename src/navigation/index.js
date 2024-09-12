@@ -14,7 +14,7 @@ const Stack = createNativeStackNavigator();
 function AppNavigation() {
   return (
     <NavigationContainer>
-      <Stack.Navigatoreas 
+      <Stack.Navigator 
         initialRouteName="Welcome"
         screenOptions={{ headerShown: false }}
       >
@@ -27,7 +27,7 @@ function AppNavigation() {
         <Stack.Screen name="FavoriteScreen" component={FavoriteScreen} />
 
 
-      </Stack.Navigatoreas>
+      </Stack.Navigator>
     </NavigationContainer>
   );
 }
